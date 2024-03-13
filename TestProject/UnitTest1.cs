@@ -45,7 +45,7 @@ namespace TestProject
 
         public void TestDevide(int a, int b, object expected)
         {
-            if (b == 0)
+            if (b != 0)
             {
                 var result = CalculatorTest.CalculatorTest.Divide(a,b);
                 Assert.Equal(expected, result);

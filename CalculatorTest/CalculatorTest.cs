@@ -14,6 +14,6 @@ namespace CalculatorTest
 
         public static double Multiply(int a,int b) {  return a * b; }
 
-        public static double Divide(int a,int b) { return a / b; }
+        public static int Divide(int a,int b) { return a / b; }
     }
 }
